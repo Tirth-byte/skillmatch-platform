@@ -1,34 +1,42 @@
-# SkillMatch AI - Corporate Intelligence Ecosystem 🚀
+# SkillMatch  
+AI-powered Skill-to-Opportunity Matching Platform
 
-**Status**: ✅ Production Ready (v1.0.0)
+SkillMatch AI helps users discover internships, jobs, hackathons, freelance work, and learning opportunities based on their real skills — not just resumes. The platform focuses on potential, growth, and clear next steps instead of rejection.
 
-**SkillMatch AI** is a fully gamified, monetized, and certified career ecosystem. It bridges the gap between talent and enterprise by using autonomous agents to match skills, verify expertise, and predict career trajectories.
+##  What It Does
+- Matches users to opportunities using skill analysis
+- Shows skill gaps and readiness level
+- Suggests learning paths to unlock better opportunities
+- Supports beginners and advanced users
+- Includes community, mentorship, and enterprise views
 
-Built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Shadcn/UI**.
+## 🛠 Tech Stack
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS + Shadcn/UI
+- Context-based AI simulation
+- Deployed-ready architecture
+
+## 👥 Team Contributions
+**TIRTH PATEL (Full Stack / AI / Integration / Deployment):**
+- Core logic & AI matching engine
+- Skill gap analysis & learning paths
+- API routes & services
+- Integration, debugging, deployment readiness
+
+**MAN PATEL (UI/UX & System Architecture):**
+- UI/UX design & flow
+- Page layouts & component structure
+- Design system & user experience
+- Overall system architecture planning
+
+##  Hackathon Note
+Built and refined during the hackathon with a focus on scalability, usability, and real-world impact.
+
 
 ---
 
-## 🚀 Key Features
-
-### 1. 🤖 Autonomous AI Agents
-The platform features a simulated multi-agent system:
-- **Adaptive Learning Engine**: Uses a "Reinforcement Learning" simulation (via LocalStorage weights). Every time a user views or saves a job, the system up-weights those skills, tailoring future results.
-- **Discovery Agent**: A background worker (simulated in `/admin`) that "scrapes" the web for new opportunities and auto-classifies them.
-- **Career Compass**: An intent-based AI planner that adapts the dashboard workflow based on the user's current goal (e.g., "Upskill" vs "Get Hired").
-
-### 2. 🌍 Live Ecosystem & Community
-- **Global Neural Network**: An `EcosystemContext` acts as the central brain, simulating real-time market trends and community activity.
-- **Social Feed**: A `/community` hub where users can share opportunities and track peer progress.
-- **Market Pulse**: Real-time trending skills (e.g., "Generative AI +45%") injected live into user dashboards.
-
-### 3. 🎯 Personalized Growth
-- **Smart Skill Gap Analysis**: Visualizes exactly what skills a user is missing for their dream role.
-- **Auto-Generated Learning Paths**: If a user lacks a skill (e.g., TypeScript), the AI proactively generates a 3-step mastery plan.
-- **Match Prediction**: A predictive gauge showing the likelihood of landing an interview.
-
----
-
-## 🎨 Design & Experience
+##  Design & Experience
 - **Dark Mode**: Fully supported with a toggle in the header. Persists user preference.
 - **Live Data**: Opportunities are fetched in real-time from GitHub Jobs (Issues) and Hacker News. No fake data.
 - **Verified Listings**: All opportunities include verified links and company logos (via Clearbit API).
